@@ -2,6 +2,7 @@
 
 In progress
 
+##Example of reserving 32 cores, declaring 32 processes per node and 16 processes per socket.
 ```bash
 #!/bin/bash
 
