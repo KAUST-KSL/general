@@ -5,8 +5,6 @@
   {% include_relative OTP/README.md %}
 {% endfor %}
 
-{% include_relative training.html %}
-
 {% for folder in site.folders %}
    {{ folders.title }}
 {% endfor %}
