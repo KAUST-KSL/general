@@ -1,5 +1,7 @@
 ## Welcome to OTP installation
 
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}](https://kaust-ksl.github.io/{{ repository.name }})
-{% endfor %}
+1. Use this
+
+2. Do this
+
+3. Still working on it
