@@ -8,3 +8,7 @@
 {% for folder in site.folders %}
    {{ folder.title | capitalize }}
 {% endfor %}
+
+{% for folder in site.folders %}
+   {{ folder.title | capitalize }}
+{% endfor %}
