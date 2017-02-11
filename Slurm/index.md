@@ -2,7 +2,11 @@
 
 In progress
 
-##Example of reserving 32 cores, declaring 32 processes per node and 16 processes per socket.
+## Example of reserving 32 cores
+
+In this case we declare 32 processes per node and 16 processes per socket
+We execute 32 processes by declaring *-n 32* in the *srun* command
+
 ```bash
 #!/bin/bash
 
@@ -21,4 +25,7 @@ time srun -n 32 --hint=nomultithread hello
 
 exit 0
 ```
+
+Do not forget the **--hint=nomultithread** to disable multithreading
+
 [Download script](https://raw.githubusercontent.com/KAUST-KSL/general/master/Slurm/slurm_example.sh)
