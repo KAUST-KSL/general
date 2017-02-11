@@ -29,3 +29,5 @@ exit 0
 Do not forget the **--hint=nomultithread** to disable multithreading
 
 [Download script](https://raw.githubusercontent.com/KAUST-KSL/general/master/Slurm/slurm_example.sh)
+
+{% indlude slurm_example.sh %}
