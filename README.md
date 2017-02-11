@@ -2,9 +2,8 @@
 
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}](https://kaust-ksl.github.io/{{ repository.name }})
-  {% include_relative OTP/README.md %}
 {% endfor %}
 
 {% for folder in site.folders %}
-   {{ folder.title }}
+   [{{ folder.title }}](https://kaust-ksl.github.io/general/{{ folder.title }})
 {% endfor %}
