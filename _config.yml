@@ -1,1 +1,6 @@
 theme: jekyll-theme-modernist
+markdown: kramdown
+title: KAUST KSL
+releases: 0.1
+gems:
+  - jekyll-sitemap
