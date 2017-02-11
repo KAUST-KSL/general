@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 markdown: kramdown
 title: KAUST KSL
-releases: 0.1
+collections:
+  training: 
 gems:
   - jekyll-sitemap
