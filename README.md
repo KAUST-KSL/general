@@ -8,5 +8,3 @@
 {% for folder in site.folders %}
    {{ folder.title }}
 {% endfor %}
-
-{% include_relative Otp/index.html %}
