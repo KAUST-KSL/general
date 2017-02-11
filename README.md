@@ -9,3 +9,7 @@
    {{ folder.title }}
 {% endfor %}
 
+{% for folder in site.folders %}
+   {{ folder.title }}
+{% endfor %}
+
