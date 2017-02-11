@@ -1,13 +1,10 @@
----
-layout: page
-title: Preparing OTP
----
+# Preparing OTP for installation
 
 In progress
 
-# Windows
+## Windows
 
 
-# Linux
+## Linux
 
-# MacOS
+## MacOS
