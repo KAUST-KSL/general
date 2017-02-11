@@ -6,3 +6,7 @@
 {% endfor %}
 
 {% include_relative training.html %}
+
+{% for folder in site.folders %}
+   {{ folders.title }}
+{% endfor %}
