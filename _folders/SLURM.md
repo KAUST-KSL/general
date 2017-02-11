@@ -1,3 +1,3 @@
 ---
-Title: SLURM
+Title: slurm
 ---
