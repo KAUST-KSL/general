@@ -3,5 +3,6 @@ markdown: kramdown
 title: KAUST KSL
 collections:
   training: 
+  folders:
 gems:
   - jekyll-sitemap
