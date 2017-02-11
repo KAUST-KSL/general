@@ -6,5 +6,5 @@
 {% endfor %}
 
 {% for folder in site.folders %}
-   {{ folder.title }}
+   {{ folder.title | UPPERCASE }}
 {% endfor %}
