@@ -1,7 +1,6 @@
-## Welcome to OTP installation
+---
+Title: OTP installation
+---
 
-1. Use this
+In progress
 
-2. Do this
-
-3. Still working on it
