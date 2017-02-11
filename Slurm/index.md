@@ -20,3 +20,4 @@ time srun -n 32 --hint=nomultithread hello
 
 exit 0
 ```
+[Download script](https://raw.githubusercontent.com/KAUST-KSL/general/master/Slurm/slurm_example.sh)
