@@ -16,7 +16,7 @@ In progress
 #SBATCH -e err_%j
 
 
-time srun --hint=nomultithread 32 hello
+time srun -n 32 --hint=nomultithread hello
 
 exit 0
 ```
