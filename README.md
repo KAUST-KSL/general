@@ -5,5 +5,5 @@
 {% endfor %}
 
 {% for folder in site.folders %}
-   [{{ folder.title }}](https://kaust-ksl.github.io/{{ folder.title }})
+   [{{ folder.title }}](https://kaust-ksl.github.io/general/{{ folder.title }})
 {% endfor %}
