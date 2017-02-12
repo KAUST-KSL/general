@@ -9,7 +9,7 @@
 
 ### Projects
 
-{% assign sorted_repos = site.github.public_repositories | sort %}
+{% assign sorted_repos = site.github.public_repositories | sort: 'title' %}
 {% for repository in sorted_repos %}
   * [{{ repository.name }}](https://kaust-ksl.github.io/{{ repository.name }})
 {% endfor %}
