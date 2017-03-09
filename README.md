@@ -6,7 +6,6 @@
   * [{{ folder.title }}](https://kaust-ksl.github.io/general/{{ folder.title }})
 {% endfor %}
 
-
 ### Projects
 
 {% assign sorted_repos = site.github.public_repositories | sort: 'title' %}
