@@ -13,4 +13,3 @@
   * [{{ repository.name }}](https://kaust-ksl.github.io/{{ repository.name }})
 {% endfor %}
 
-
